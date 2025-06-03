@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hard Rock Enterprises offers reliable septic pumping in YourCity. Schedule eco-friendly services today!">
+  <meta name="keywords" content="septic pumping YourCity, septic services, Hard Rock Enterprises, septic tank cleaning">
+  <meta name="author" content="Hard Rock Enterprises, Inc.">
+  <title>Hard Rock Enterprises - Septic Pumping in YourCity</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/babel-standalone@6.26.0/babel.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel">
+    const { useState } = React;
+
+    // Header Component
+    const Header = () => (
+      <header className="bg-green-600 text-white py-4">
+        <div className="container mx-auto flex justify-between items-center px-4">
+          <h1 className="text-2xl font-bold">Hard Rock Enterprises</h1>
+          <nav>
+            <a href="#services" className="mx-2 hover:underline">Services</a>
+            <a href="#testimonials" className="mx-2 hover:underline">Testimonials</a>
+            <a href="#contact" className="mx-2 hover:underline">Contact</a>
+          </nav>
+        </div>
+      </header>
+    );
+
+    // Hero Component
+    const Hero = () => (
+      <section className="bg-green-100 py-20 text-center">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold mb-4">Septic Pumping in YourCity</h2>
+          <p className="text-lg mb-6">Hard Rock Enterprises serves YourCity with eco-friendly septic solutions.</p>
+          <a href="#contact" className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700">Schedule Now</a>
+        </div>
+      </section>
+    );
+
+    // Services Component
+    const Services = () => (
+      <section id="services" className="py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="p-6 bg-white shadow-lg rounded-lg">
+              <h3 className="text-xl font-semibold mb-2">Septic Pumping</h3>
+              <p>Regular pumping to keep your septic system running smoothly in YourCity.</p>
+            </div>
+            <div className="p-6 bg-white shadow-lg rounded-lg">
+              <h3 className="text-xl font-semibold mb-2">Inspections</h3>
+              <p>Thorough inspections for home sales or maintenance in YourCity.</p>
+            </div>
+            <div className="p-6 bg-white shadow-lg rounded-lg">
+              <h3 className="text-xl font-semibold mb-2">Emergency Services</h3>
+              <p>24/7 response for septic backups in YourCity.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+
+    // Testimonials Component
+    const Testimonials = () => (
+      <section id="testimonials" className="bg-gray-100 py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-8">What Our Customers Say</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="p-6 bg-white shadow-lg rounded-lg">
+              <p className="italic mb-4">"Hard Rock Enterprises saved the day with fast service in YourCity!"</p>
+              <p className="font-semibold">– Jane D., Homeowner</p>
+            </div>
+            <div className="p-6 bg-white shadow-lg rounded-lg">
+              <p className="italic mb-4">"Professional and eco-friendly septic services in YourCity."</p>
+              <p className="font-semibold">– Mark S., Property Manager</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+
+    // Contact Component with Netlify Forms
+    const Contact = () => {
+      const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+
+      const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+      };
+
+      return (
+        <section id="contact" className="py-16">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-center mb-8">Get in Touch</h2>
+            <div className="max-w-lg mx-auto">
+              <form name="contact" method="POST" data-netlify="true" className="space-y-4">
+                <input type="hidden" name="form-name" value="contact" />
+                <div>
+                  <label htmlFor="name" className="block text-sm font-medium">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    className="w-full p-2 border rounded-lg"
+                    required
+                  />
+                </div>
+                <div>
+                  <label htmlFor="email" className="block text-sm font-medium">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    className="w-full p-2 border rounded-lg"
+                    required
+                  />
+                </div>
+                <div>
+                  <label htmlFor="message" className="block text-sm font-medium">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    className="w-full p-2 border rounded-lg"
+                    rows="4"
+                    required
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700"
+                >
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+      );
+    };
+
+    // Footer Component
+    const Footer = () => (
+      <footer className="bg-green-600 text-white py-6">
+        <div className="container mx-auto px-4 text-center">
+          <p>© 2025 Hard Rock Enterprises, Inc. All rights reserved.</p>
+          <p className="mt-2">Phone: (123) 456-7890 | Email: info@hrenterprises.xyz</p>
+          <div className="mt-2">
+            <a href="#" className="mx-2 hover:underline">Facebook</a>
+            <a href="#" className="mx-2 hover:underline">Twitter</a>
+            <a href="#" className="mx-2 hover:underline">Instagram</a>
+          </div>
+        </div>
+      </footer>
+    );
+
+    // Schema Markup
+    const Schema = () => (
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Hard Rock Enterprises, Inc.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Main St",
+            "addressLocality": "YourCity",
+            "addressRegion": "YourState",
+            "postalCode": "12345"
+          },
+          "telephone": "(123) 456-7890",
+          "url": "https://hrenterprises.xyz"
+        })}
+      </script>
+    );
+
+    // Main App Component
+    const App = () => (
+      <div>
+        <Header />
+        <Hero />
+        <Services />
+        <Testimonials />
+        <Contact />
+        <Footer />
+        <Schema />
+      </div>
+    );
+
+    // Render the App
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+</body>
+</html>
