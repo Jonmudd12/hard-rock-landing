@@ -211,7 +211,7 @@ var Schema = function Schema() {
       "postalCode": "12345"
     },
     "telephone": "(123) 456-7890",
-    "url": "https://hrenterprises.xyz"
+    "url": "https://hresl.com"
   }));
 };
 
