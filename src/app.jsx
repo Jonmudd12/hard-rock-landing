@@ -2,7 +2,7 @@ const { useState } = React;
 
 // Header Component
 const Header = () => (
-  <header className="bg-green-600 text-white py-4">
+  <header className="bg-red-600 text-white py-4">
     <div className="container mx-auto flex justify-between items-center px-4">
       <h1 className="text-2xl font-bold">Hard Rock Enterprises</h1>
       <nav>
@@ -16,11 +16,11 @@ const Header = () => (
 
 // Hero Component
 const Hero = () => (
-  <section className="bg-green-100 py-20 text-center">
+  <section className="bg-red-100 py-20 text-center">
     <div className="container mx-auto px-4">
       <h2 className="text-4xl font-bold mb-4">Septic Pumping in YourCity</h2>
       <p className="text-lg mb-6">Hard Rock Enterprises serves YourCity with eco-friendly septic solutions.</p>
-      <a href="#contact" className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700">Schedule Now</a>
+      <a href="#contact" className="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700">Schedule Now</a>
     </div>
   </section>
 );

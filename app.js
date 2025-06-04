@@ -18,7 +18,7 @@ var _React = React,
 // Header Component
 var Header = function Header() {
   return /*#__PURE__*/React.createElement("header", {
-    className: "bg-green-600 text-white py-4"
+    className: "bg-red-600 text-white py-4"
   }, /*#__PURE__*/React.createElement("div", {
     className: "container mx-auto flex justify-between items-center px-4"
   }, /*#__PURE__*/React.createElement("h1", {
@@ -38,7 +38,7 @@ var Header = function Header() {
 // Hero Component
 var Hero = function Hero() {
   return /*#__PURE__*/React.createElement("section", {
-    className: "bg-green-100 py-20 text-center"
+    className: "bg-red-100 py-20 text-center"
   }, /*#__PURE__*/React.createElement("div", {
     className: "container mx-auto px-4"
   }, /*#__PURE__*/React.createElement("h2", {
@@ -47,7 +47,7 @@ var Hero = function Hero() {
     className: "text-lg mb-6"
   }, "Hard Rock Enterprises serves YourCity with eco-friendly septic solutions."), /*#__PURE__*/React.createElement("a", {
     href: "#contact",
-    className: "bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700"
+    className: "bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700"
   }, "Schedule Now")));
 };
 
