@@ -169,14 +169,14 @@ var Contact = function Contact() {
     required: true
   })), /*#__PURE__*/React.createElement("button", {
     type: "submit",
-    className: "bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700"
+    className: "bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700"
   }, "Send Message")))));
 };
 
 // Footer Component
 var Footer = function Footer() {
   return /*#__PURE__*/React.createElement("footer", {
-    className: "bg-green-600 text-white py-6"
+    className: "bg-red-600 text-white py-6"
   }, /*#__PURE__*/React.createElement("div", {
     className: "container mx-auto px-4 text-center"
   }, /*#__PURE__*/React.createElement("p", null, "\xA9 2025 Hard Rock Enterprises, Inc. All rights reserved."), /*#__PURE__*/React.createElement("p", {

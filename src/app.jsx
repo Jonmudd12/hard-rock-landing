@@ -120,7 +120,7 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700"
+              className="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700"
             >
               Send Message
             </button>
@@ -133,7 +133,7 @@ const Contact = () => {
 
 // Footer Component
 const Footer = () => (
-  <footer className="bg-green-600 text-white py-6">
+  <footer className="bg-red-600 text-white py-6">
     <div className="container mx-auto px-4 text-center">
       <p>© 2025 Hard Rock Enterprises, Inc. All rights reserved.</p>
       <p className="mt-2">Phone: (123) 456-7890 | Email: info@hrenterprises.xyz</p>
