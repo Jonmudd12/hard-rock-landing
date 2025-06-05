@@ -2,9 +2,15 @@
   "name": "hard-rock-landing",
   "version": "1.0.0",
   "scripts": {
-    "build": "tailwindcss -i ./input.css -o ./styles.css --minify"
+    "build:js": "babel src/app.jsx --out-file app.js",
+    "build:css": "tailwindcss -i ./input.css -o ./styles.css --minify",
+    "build": "npm run build:js && npm run build:css"
   },
   "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
     "tailwindcss": "^3.4.1"
   }
 }

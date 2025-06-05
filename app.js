@@ -23,7 +23,7 @@ var Header = function Header() {
     className: "container mx-auto flex justify-between items-center px-4"
   }, /*#__PURE__*/React.createElement("h1", {
     className: "text-2xl font-bold"
-  }, "Hard Rock Enterprises"), /*#__PURE__*/React.createElement("nav", null, /*#__PURE__*/React.createElement("a", {
+  }, "Hard Rock Exacavtion, Septic & Landscape LLC"), /*#__PURE__*/React.createElement("nav", null, /*#__PURE__*/React.createElement("a", {
     href: "#services",
     className: "mx-2 hover:underline"
   }, "Services"), /*#__PURE__*/React.createElement("a", {
@@ -43,9 +43,9 @@ var Hero = function Hero() {
     className: "container mx-auto px-4"
   }, /*#__PURE__*/React.createElement("h2", {
     className: "text-4xl font-bold mb-4"
-  }, "Septic Pumping in YourCity"), /*#__PURE__*/React.createElement("p", {
+  }, "Septic Pumping in Mid-Missouri"), /*#__PURE__*/React.createElement("p", {
     className: "text-lg mb-6"
-  }, "Hard Rock Enterprises serves YourCity with eco-friendly septic solutions."), /*#__PURE__*/React.createElement("a", {
+  }, "Hard Rock Excavation, Septic & Landscape serves Mid-Missouri. Schedule now with eco-friendly septic solutions."), /*#__PURE__*/React.createElement("a", {
     href: "#contact",
     className: "bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700"
   }, "Schedule Now")));
@@ -66,15 +66,15 @@ var Services = function Services() {
     className: "p-6 bg-white shadow-lg rounded-lg"
   }, /*#__PURE__*/React.createElement("h3", {
     className: "text-xl font-semibold mb-2"
-  }, "Septic Pumping"), /*#__PURE__*/React.createElement("p", null, "Regular pumping to keep your septic system running smoothly in YourCity.")), /*#__PURE__*/React.createElement("div", {
+  }, "Septic Pumping"), /*#__PURE__*/React.createElement("p", null, "Regular pumping to keep your septic system running smoothly in Mid-Missouri.")), /*#__PURE__*/React.createElement("div", {
     className: "p-6 bg-white shadow-lg rounded-lg"
   }, /*#__PURE__*/React.createElement("h3", {
     className: "text-xl font-semibold mb-2"
-  }, "Inspections"), /*#__PURE__*/React.createElement("p", null, "Thorough inspections for home sales or maintenance in YourCity.")), /*#__PURE__*/React.createElement("div", {
+  }, "Inspections"), /*#__PURE__*/React.createElement("p", null, "Thorough inspections for home sales or maintenance in Mid-Missouri.")), /*#__PURE__*/React.createElement("div", {
     className: "p-6 bg-white shadow-lg rounded-lg"
   }, /*#__PURE__*/React.createElement("h3", {
     className: "text-xl font-semibold mb-2"
-  }, "Emergency Services"), /*#__PURE__*/React.createElement("p", null, "24/7 response for septic backups in YourCity.")))));
+  }, "Emergency Services"), /*#__PURE__*/React.createElement("p", null, "24/7 response for septic backups in Mid-Missouri.")))));
 };
 
 // Testimonials Component
@@ -92,13 +92,13 @@ var Testimonials = function Testimonials() {
     className: "p-6 bg-white shadow-lg rounded-lg"
   }, /*#__PURE__*/React.createElement("p", {
     className: "italic mb-4"
-  }, "\"Hard Rock Enterprises saved the day with fast service in YourCity!\""), /*#__PURE__*/React.createElement("p", {
+  }, "\"Hard Rock Excavation, Septic & Landscape saved the day with fast service in Jefferson City!\""), /*#__PURE__*/React.createElement("p", {
     className: "font-semibold"
   }, "\u2013 Jane D., Homeowner")), /*#__PURE__*/React.createElement("div", {
     className: "p-6 bg-white shadow-lg rounded-lg"
   }, /*#__PURE__*/React.createElement("p", {
     className: "italic mb-4"
-  }, "\"Professional and eco-friendly septic services in YourCity.\""), /*#__PURE__*/React.createElement("p", {
+  }, "\"Professional and eco-friendly septic services at the Lake of the Ozarks.\""), /*#__PURE__*/React.createElement("p", {
     className: "font-semibold"
   }, "\u2013 Mark S., Property Manager")))));
 };
@@ -181,7 +181,7 @@ var Footer = function Footer() {
     className: "container mx-auto px-4 text-center"
   }, /*#__PURE__*/React.createElement("p", null, "\xA9 2025 Hard Rock Enterprises, Inc. All rights reserved."), /*#__PURE__*/React.createElement("p", {
     className: "mt-2"
-  }, "Phone: (123) 456-7890 | Email: info@hrenterprises.xyz"), /*#__PURE__*/React.createElement("div", {
+  }, "Phone: (660) 888-2306 | Email: info@hresl.com"), /*#__PURE__*/React.createElement("div", {
     className: "mt-2"
   }, /*#__PURE__*/React.createElement("a", {
     href: "#",
@@ -202,15 +202,15 @@ var Schema = function Schema() {
   }, JSON.stringify({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Hard Rock Enterprises, Inc.",
+    "name": "Hard Rock Excavation, Septic & Landscape LLC.",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "123 Main St",
-      "addressLocality": "YourCity",
-      "addressRegion": "YourState",
-      "postalCode": "12345"
+      "streetAddress": "27174 Hard Rock Rd",
+      "addressLocality": "Barnett",
+      "addressRegion": "Missouri",
+      "postalCode": "65011"
     },
-    "telephone": "(123) 456-7890",
+    "telephone": "(660) 888-2306",
     "url": "https://hresl.com"
   }));
 };
