@@ -4,7 +4,7 @@ const { useState } = React;
 const Header = () => (
   <header className="bg-red-600 text-white py-4">
     <div className="container mx-auto flex justify-between items-center px-4">
-      <h1 className="text-2xl font-bold">Hard Rock Exacavtion, Septic & Landscape LLC</h1>
+      <h1 className="text-2xl font-bold">Hard Rock Excavation, Septic and Landscape LLC</h1>
       <nav>
         <a href="#services" className="mx-2 hover:underline">Services</a>
         <a href="#testimonials" className="mx-2 hover:underline">Testimonials</a>
@@ -19,7 +19,7 @@ const Hero = () => (
   <section className="bg-red-100 py-20 text-center">
     <div className="container mx-auto px-4">
       <h2 className="text-4xl font-bold mb-4">Septic Pumping in Mid-Missouri</h2>
-      <p className="text-lg mb-6">Hard Rock Excavation, Septic & Landscape serves Mid-Missouri. Schedule now with eco-friendly septic solutions.</p>
+      <p className="text-lg mb-6">Hard Rock Excavation, Septic and Landscape LLC serves Mid-Missouri for all outdoor solutions.</p>
       <a href="#contact" className="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700">Schedule Now</a>
     </div>
   </section>
@@ -30,18 +30,56 @@ const Services = () => (
   <section id="services" className="py-16">
     <div className="container mx-auto px-4">
       <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="p-6 bg-white shadow-lg rounded-lg">
-          <h3 className="text-xl font-semibold mb-2">Septic Pumping</h3>
-          <p>Regular pumping to keep your septic system running smoothly in Mid-Missouri.</p>
+      <div className="space-y-8">
+        <div>
+          <h3 className="text-2xl font-semibold mb-2">Excavation</h3>
+          <ul className="list-disc pl-5">
+            <li>Land Clearing</li>
+            <li>Site Grading</li>
+            <li>Driveway Grading</li>
+            <li>Debris Haul-Off</li>
+          </ul>
         </div>
-        <div className="p-6 bg-white shadow-lg rounded-lg">
-          <h3 className="text-xl font-semibold mb-2">Inspections</h3>
-          <p>Thorough inspections for home sales or maintenance in Mid-Missouri.</p>
+        <div>
+          <h3 className="text-2xl font-semibold mb-2">Septic Services</h3>
+          <ul className="list-disc pl-5">
+            <li>Maintenance</li>
+            <li>New Installations</li>
+            <li>Repairs</li>
+            <li>Inspections</li>
+          </ul>
         </div>
-        <div className="p-6 bg-white shadow-lg rounded-lg">
-          <h3 className="text-xl font-semibold mb-2">Emergency Services</h3>
-          <p>24/7 response for septic backups in Mid-Missouri.</p>
+        <div>
+          <h3 className="text-2xl font-semibold mb-2">Landscaping</h3>
+          <ul className="list-disc pl-5">
+            <li>Lawn Maintenance (Mowing, Trimming, Edging, Blowing)</li>
+            <li>Tree Pruning and Removal</li>
+            <li>Aeration and Overseeding</li>
+            <li>Chemical Applications</li>
+            <li>Erosion Control</li>
+            <li>Debris Clean-Up</li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="text-2xl font-semibold mb-2">Delivery</h3>
+          <ul className="list-disc pl-5">
+            <li>Mulch</li>
+            <li>Dirt</li>
+            <li>Aggregate</li>
+            <li>Plants</li>
+            <li>Trees</li>
+            <li>Yard Stone</li>
+            <li>Yard Fixtures</li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="text-2xl font-semibold mb-2">Hardscape</h3>
+          <ul className="list-disc pl-5">
+            <li>Retaining Walls</li>
+            <li>Patios</li>
+            <li>Outdoor Living Spaces</li>
+            <li>Outdoor Kitchens</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -55,11 +93,11 @@ const Testimonials = () => (
       <h2 className="text-3xl font-bold text-center mb-8">What Our Customers Say</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="p-6 bg-white shadow-lg rounded-lg">
-          <p className="italic mb-4">"Hard Rock Excavation, Septic & Landscape saved the day with fast service in Jefferson City!"</p>
+          <p className="italic mb-4">"Hard Rock Excavation, Septic and Landscape LLC saved the day with fast service in Mid-Missouri!"</p>
           <p className="font-semibold">– Jane D., Homeowner</p>
         </div>
         <div className="p-6 bg-white shadow-lg rounded-lg">
-          <p className="italic mb-4">"Professional and eco-friendly septic services at the Lake of the Ozarks."</p>
+          <p className="italic mb-4">"Professional Outdoor  services in Mid-Missouri."</p>
           <p className="font-semibold">– Mark S., Property Manager</p>
         </div>
       </div>
@@ -135,8 +173,8 @@ const Contact = () => {
 const Footer = () => (
   <footer className="bg-red-600 text-white py-6">
     <div className="container mx-auto px-4 text-center">
-      <p>© 2025 Hard Rock Enterprises, Inc. All rights reserved.</p>
-      <p className="mt-2">Phone: (660) 888-2306 | Email: info@hresl.com</p>
+      <p>© 2025 Hard Rock Excavation, Septic and Landscape LLC. All rights reserved.</p>
+      <p className="mt-2">Phone: (660)888-2306 | Email: jonmudd12hre@gmail.com</p>
       <div className="mt-2">
         <a href="#" className="mx-2 hover:underline">Facebook</a>
         <a href="#" className="mx-2 hover:underline">Twitter</a>
@@ -152,15 +190,15 @@ const Schema = () => (
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "Hard Rock Excavation, Septic & Landscape LLC.",
+      "name": "Hard Rock Excavation, Septic and Landscape LLC",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "27174 Hard Rock Rd",
-        "addressLocality": "Barnett",
-        "addressRegion": "Missouri",
+        "streetAddress": "Hard Rock Rd",
+        "addressLocality": "Mid-Missouri",
+        "addressRegion": "MO",
         "postalCode": "65011"
       },
-      "telephone": "(660) 888-2306",
+      "telephone": "(660)888-2306",
       "url": "https://hresl.com"
     })}
   </script>
