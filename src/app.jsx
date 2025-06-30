@@ -18,8 +18,8 @@ const Header = () => (
 const Hero = () => (
   <section className="bg-red-100 py-20 text-center">
     <div className="container mx-auto px-4">
-      <h2 className="text-4xl font-bold mb-4">Septic Pumping in Mid-Missouri</h2>
-      <p className="text-lg mb-6">Hard Rock Excavation, Septic and Landscape LLC serves Mid-Missouri for all outdoor solutions.</p>
+      <h2 className="text-4xl font-bold mb-4">Comprehensive Outdoor services in Mid-Missouri</h2>
+      <p className="text-lg mb-6">Hard Rock Excavation, Septic and Landscape LLC serves Mid-Missouri with all outdoor solutions.</p>
       <a href="#contact" className="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700">Schedule Now</a>
     </div>
   </section>
@@ -30,28 +30,34 @@ const Services = () => (
   <section id="services" className="py-16">
     <div className="container mx-auto px-4">
       <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
-      <div className="space-y-8">
-        <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Excavation */}
+        <div className="p-6 bg-white shadow-lg rounded-lg text-center">
+          <img src="images/placeholder-excavation.jpg" alt="Excavation Service Placeholder" className="w-full h-48 object-cover mb-4" />
           <h3 className="text-2xl font-semibold mb-2">Excavation</h3>
-          <ul className="list-disc pl-5">
+          <ul className="list-disc pl-5 text-left">
             <li>Land Clearing</li>
             <li>Site Grading</li>
             <li>Driveway Grading</li>
             <li>Debris Haul-Off</li>
           </ul>
         </div>
-        <div>
+        {/* Septic Services */}
+        <div className="p-6 bg-white shadow-lg rounded-lg text-center">
+          <img src="images/placeholder-septic.jpg" alt="Septic Service Placeholder" className="w-full h-48 object-cover mb-4" />
           <h3 className="text-2xl font-semibold mb-2">Septic Services</h3>
-          <ul className="list-disc pl-5">
+          <ul className="list-disc pl-5 text-left">
             <li>Maintenance</li>
             <li>New Installations</li>
             <li>Repairs</li>
             <li>Inspections</li>
           </ul>
         </div>
-        <div>
+        {/* Mowing and Landscaping */}
+        <div className="p-6 bg-white shadow-lg rounded-lg text-center">
+          <img src="images/placeholder-landscaping.jpg" alt="Landscaping Service Placeholder" className="w-full h-48 object-cover mb-4" />
           <h3 className="text-2xl font-semibold mb-2">Landscaping</h3>
-          <ul className="list-disc pl-5">
+          <ul className="list-disc pl-5 text-left">
             <li>Lawn Maintenance (Mowing, Trimming, Edging, Blowing)</li>
             <li>Tree Pruning and Removal</li>
             <li>Aeration and Overseeding</li>
@@ -60,9 +66,11 @@ const Services = () => (
             <li>Debris Clean-Up</li>
           </ul>
         </div>
-        <div>
+        {/* Delivery */}
+        <div className="p-6 bg-white shadow-lg rounded-lg text-center">
+          <img src="images/placeholder-delivery.jpg" alt="Delivery Service Placeholder" className="w-full h-48 object-cover mb-4" />
           <h3 className="text-2xl font-semibold mb-2">Delivery</h3>
-          <ul className="list-disc pl-5">
+          <ul className="list-disc pl-5 text-left">
             <li>Mulch</li>
             <li>Dirt</li>
             <li>Aggregate</li>
@@ -72,9 +80,11 @@ const Services = () => (
             <li>Yard Fixtures</li>
           </ul>
         </div>
-        <div>
+        {/* Hardscape */}
+        <div className="p-6 bg-white shadow-lg rounded-lg text-center">
+          <img src="images/placeholder-hardscape.jpg" alt="Hardscape Service Placeholder" className="w-full h-48 object-cover mb-4" />
           <h3 className="text-2xl font-semibold mb-2">Hardscape</h3>
-          <ul className="list-disc pl-5">
+          <ul className="list-disc pl-5 text-left">
             <li>Retaining Walls</li>
             <li>Patios</li>
             <li>Outdoor Living Spaces</li>
@@ -97,7 +107,7 @@ const Testimonials = () => (
           <p className="font-semibold">– Jane D., Homeowner</p>
         </div>
         <div className="p-6 bg-white shadow-lg rounded-lg">
-          <p className="italic mb-4">"Professional Outdoor  services in Mid-Missouri."</p>
+          <p className="italic mb-4">"Professional with a complete comprehensive outdoor service in Mid-Missouri."</p>
           <p className="font-semibold">– Mark S., Property Manager</p>
         </div>
       </div>
@@ -174,7 +184,7 @@ const Footer = () => (
   <footer className="bg-red-600 text-white py-6">
     <div className="container mx-auto px-4 text-center">
       <p>© 2025 Hard Rock Excavation, Septic and Landscape LLC. All rights reserved.</p>
-      <p className="mt-2">Phone: (660)888-2306 | Email: jonmudd12hre@gmail.com</p>
+      <p className="mt-2">Phone: (660) 888-2306 | Email: jonmudd12hre@gmail.com</p>
       <div className="mt-2">
         <a href="#" className="mx-2 hover:underline">Facebook</a>
         <a href="#" className="mx-2 hover:underline">Twitter</a>
@@ -193,12 +203,12 @@ const Schema = () => (
       "name": "Hard Rock Excavation, Septic and Landscape LLC",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Hard Rock Rd",
+        "streetAddress": "Hard Rock Road",
         "addressLocality": "Mid-Missouri",
         "addressRegion": "MO",
         "postalCode": "65011"
       },
-      "telephone": "(660)888-2306",
+      "telephone": "(660) 888-2306",
       "url": "https://hresl.com"
     })}
   </script>

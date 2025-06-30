@@ -43,9 +43,9 @@ var Hero = function Hero() {
     className: "container mx-auto px-4"
   }, /*#__PURE__*/React.createElement("h2", {
     className: "text-4xl font-bold mb-4"
-  }, "Septic Pumping in Mid-Missouri"), /*#__PURE__*/React.createElement("p", {
+  }, "Comprehensive Outdoor services in Mid-Missouri"), /*#__PURE__*/React.createElement("p", {
     className: "text-lg mb-6"
-  }, "Hard Rock Excavation, Septic and Landscape LLC serves Mid-Missouri for all outdoor solutions."), /*#__PURE__*/React.createElement("a", {
+  }, "Hard Rock Excavation, Septic and Landscape LLC serves Mid-Missouri with all outdoor solutions."), /*#__PURE__*/React.createElement("a", {
     href: "#contact",
     className: "bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700"
   }, "Schedule Now")));
@@ -61,27 +61,57 @@ var Services = function Services() {
   }, /*#__PURE__*/React.createElement("h2", {
     className: "text-3xl font-bold text-center mb-8"
   }, "Our Services"), /*#__PURE__*/React.createElement("div", {
-    className: "space-y-8"
-  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h3", {
+    className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "p-6 bg-white shadow-lg rounded-lg text-center"
+  }, /*#__PURE__*/React.createElement("img", {
+    src: "images/placeholder-excavation.jpg",
+    alt: "Excavation Service Placeholder",
+    className: "w-full h-48 object-cover mb-4"
+  }), /*#__PURE__*/React.createElement("h3", {
     className: "text-2xl font-semibold mb-2"
   }, "Excavation"), /*#__PURE__*/React.createElement("ul", {
-    className: "list-disc pl-5"
-  }, /*#__PURE__*/React.createElement("li", null, "Land Clearing"), /*#__PURE__*/React.createElement("li", null, "Site Grading"), /*#__PURE__*/React.createElement("li", null, "Driveway Grading"), /*#__PURE__*/React.createElement("li", null, "Debris Haul-Off"))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h3", {
+    className: "list-disc pl-5 text-left"
+  }, /*#__PURE__*/React.createElement("li", null, "Land Clearing"), /*#__PURE__*/React.createElement("li", null, "Site Grading"), /*#__PURE__*/React.createElement("li", null, "Driveway Grading"), /*#__PURE__*/React.createElement("li", null, "Debris Haul-Off"))), /*#__PURE__*/React.createElement("div", {
+    className: "p-6 bg-white shadow-lg rounded-lg text-center"
+  }, /*#__PURE__*/React.createElement("img", {
+    src: "images/placeholder-septic.jpg",
+    alt: "Septic Service Placeholder",
+    className: "w-full h-48 object-cover mb-4"
+  }), /*#__PURE__*/React.createElement("h3", {
     className: "text-2xl font-semibold mb-2"
   }, "Septic Services"), /*#__PURE__*/React.createElement("ul", {
-    className: "list-disc pl-5"
-  }, /*#__PURE__*/React.createElement("li", null, "Maintenance"), /*#__PURE__*/React.createElement("li", null, "New Installations"), /*#__PURE__*/React.createElement("li", null, "Repairs"), /*#__PURE__*/React.createElement("li", null, "Inspections"))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h3", {
+    className: "list-disc pl-5 text-left"
+  }, /*#__PURE__*/React.createElement("li", null, "Maintenance"), /*#__PURE__*/React.createElement("li", null, "New Installations"), /*#__PURE__*/React.createElement("li", null, "Repairs"), /*#__PURE__*/React.createElement("li", null, "Inspections"))), /*#__PURE__*/React.createElement("div", {
+    className: "p-6 bg-white shadow-lg rounded-lg text-center"
+  }, /*#__PURE__*/React.createElement("img", {
+    src: "images/placeholder-landscaping.jpg",
+    alt: "Landscaping Service Placeholder",
+    className: "w-full h-48 object-cover mb-4"
+  }), /*#__PURE__*/React.createElement("h3", {
     className: "text-2xl font-semibold mb-2"
   }, "Landscaping"), /*#__PURE__*/React.createElement("ul", {
-    className: "list-disc pl-5"
-  }, /*#__PURE__*/React.createElement("li", null, "Lawn Maintenance (Mowing, Trimming, Edging, Blowing)"), /*#__PURE__*/React.createElement("li", null, "Tree Pruning and Removal"), /*#__PURE__*/React.createElement("li", null, "Aeration and Overseeding"), /*#__PURE__*/React.createElement("li", null, "Chemical Applications"), /*#__PURE__*/React.createElement("li", null, "Erosion Control"), /*#__PURE__*/React.createElement("li", null, "Debris Clean-Up"))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h3", {
+    className: "list-disc pl-5 text-left"
+  }, /*#__PURE__*/React.createElement("li", null, "Lawn Maintenance (Mowing, Trimming, Edging, Blowing)"), /*#__PURE__*/React.createElement("li", null, "Tree Pruning and Removal"), /*#__PURE__*/React.createElement("li", null, "Aeration and Overseeding"), /*#__PURE__*/React.createElement("li", null, "Chemical Applications"), /*#__PURE__*/React.createElement("li", null, "Erosion Control"), /*#__PURE__*/React.createElement("li", null, "Debris Clean-Up"))), /*#__PURE__*/React.createElement("div", {
+    className: "p-6 bg-white shadow-lg rounded-lg text-center"
+  }, /*#__PURE__*/React.createElement("img", {
+    src: "images/placeholder-delivery.jpg",
+    alt: "Delivery Service Placeholder",
+    className: "w-full h-48 object-cover mb-4"
+  }), /*#__PURE__*/React.createElement("h3", {
     className: "text-2xl font-semibold mb-2"
   }, "Delivery"), /*#__PURE__*/React.createElement("ul", {
-    className: "list-disc pl-5"
-  }, /*#__PURE__*/React.createElement("li", null, "Mulch"), /*#__PURE__*/React.createElement("li", null, "Dirt"), /*#__PURE__*/React.createElement("li", null, "Aggregate"), /*#__PURE__*/React.createElement("li", null, "Plants"), /*#__PURE__*/React.createElement("li", null, "Trees"), /*#__PURE__*/React.createElement("li", null, "Yard Stone"), /*#__PURE__*/React.createElement("li", null, "Yard Fixtures"))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h3", {
+    className: "list-disc pl-5 text-left"
+  }, /*#__PURE__*/React.createElement("li", null, "Mulch"), /*#__PURE__*/React.createElement("li", null, "Dirt"), /*#__PURE__*/React.createElement("li", null, "Aggregate"), /*#__PURE__*/React.createElement("li", null, "Plants"), /*#__PURE__*/React.createElement("li", null, "Trees"), /*#__PURE__*/React.createElement("li", null, "Yard Stone"), /*#__PURE__*/React.createElement("li", null, "Yard Fixtures"))), /*#__PURE__*/React.createElement("div", {
+    className: "p-6 bg-white shadow-lg rounded-lg text-center"
+  }, /*#__PURE__*/React.createElement("img", {
+    src: "images/placeholder-hardscape.jpg",
+    alt: "Hardscape Service Placeholder",
+    className: "w-full h-48 object-cover mb-4"
+  }), /*#__PURE__*/React.createElement("h3", {
     className: "text-2xl font-semibold mb-2"
   }, "Hardscape"), /*#__PURE__*/React.createElement("ul", {
-    className: "list-disc pl-5"
+    className: "list-disc pl-5 text-left"
   }, /*#__PURE__*/React.createElement("li", null, "Retaining Walls"), /*#__PURE__*/React.createElement("li", null, "Patios"), /*#__PURE__*/React.createElement("li", null, "Outdoor Living Spaces"), /*#__PURE__*/React.createElement("li", null, "Outdoor Kitchens"))))));
 };
 
@@ -106,7 +136,7 @@ var Testimonials = function Testimonials() {
     className: "p-6 bg-white shadow-lg rounded-lg"
   }, /*#__PURE__*/React.createElement("p", {
     className: "italic mb-4"
-  }, "\"Professional Outdoor  services in Mid-Missouri.\""), /*#__PURE__*/React.createElement("p", {
+  }, "\"Professional with a complete comprehensive outdoor service in Mid-Missouri.\""), /*#__PURE__*/React.createElement("p", {
     className: "font-semibold"
   }, "\u2013 Mark S., Property Manager")))));
 };
@@ -189,7 +219,7 @@ var Footer = function Footer() {
     className: "container mx-auto px-4 text-center"
   }, /*#__PURE__*/React.createElement("p", null, "\xA9 2025 Hard Rock Excavation, Septic and Landscape LLC. All rights reserved."), /*#__PURE__*/React.createElement("p", {
     className: "mt-2"
-  }, "Phone: (660)888-2306 | Email: jonmudd12hre@gmail.com"), /*#__PURE__*/React.createElement("div", {
+  }, "Phone: (660) 888-2306 | Email: jonmudd12hre@gmail.com"), /*#__PURE__*/React.createElement("div", {
     className: "mt-2"
   }, /*#__PURE__*/React.createElement("a", {
     href: "#",
@@ -213,12 +243,12 @@ var Schema = function Schema() {
     "name": "Hard Rock Excavation, Septic and Landscape LLC",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Hard Rock Rd",
+      "streetAddress": "Hard Rock Road",
       "addressLocality": "Mid-Missouri",
       "addressRegion": "MO",
       "postalCode": "65011"
     },
-    "telephone": "(660)888-2306",
+    "telephone": "(660) 888-2306",
     "url": "https://hresl.com"
   }));
 };
